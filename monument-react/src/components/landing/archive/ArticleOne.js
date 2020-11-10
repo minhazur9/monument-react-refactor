@@ -1,9 +1,9 @@
 import React from 'react';
-import articleImageOne from '../../images/article_1.jpg';
+import articleImageOne from '../../../images/article_1.jpg';
 
 function ArticleOne(props) {
     return (
-			<article class="col-third">
+			<article className="col-third">
 				<img src={articleImageOne} alt=""/>
 				<div>
 					<h3>Issue Twenty &mdash; The Southwest</h3>

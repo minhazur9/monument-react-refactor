@@ -1,9 +1,11 @@
 import React from 'react';
-import Header from '../components/LandingHeader';
-import ArticleOne from '../components/Archive/ArticleOne';
-import ArticleTwo from '../components/Archive/ArticleTwo';
-import ArticleThree from '../components/Archive/ArticleThree';
-import About from '../components/About';
+import Header from '../components/landing/LandingHeader';
+import ArticleOne from '../components/landing/archive/ArticleOne';
+import ArticleTwo from '../components/landing/archive/ArticleTwo';
+import ArticleThree from '../components/landing/archive/ArticleThree';
+import About from '../components/landing/About';
+import Gallery from '../components/landing/Gallery';
+import Contact from '../components/landing/Contact';
 
 import './Landing.css';
 
@@ -21,7 +23,8 @@ function Landing(props) {
         </div>
         </section>
             <About/>
-
+        <Gallery/>
+        <Contact/>
         </div>
     );
 }
